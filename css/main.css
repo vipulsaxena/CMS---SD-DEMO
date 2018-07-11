@@ -1,0 +1,47 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#sortable {
+
+}
+
+.panel-body ul li {
+  list-style-type: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  padding: 10px 12px;
+  margin: 10px 0;
+  cursor: -webkit-grab;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.16);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.16);
+}
+.panel-body ul li:active {
+  cursor: -webkit-grabbing;;
+}
+
+.op1{
+  opacity: 0.4;
+}
+
+.panel-body ul li i {
+  margin-right: 12px;
+  opacity: 0.4;
+}
+
+#master {
+  list-style-type: none;
+  cursor: -webkit-grab;
+}
+
+#master li {
+    margin-bottom: 10px;
+}
+
+#master li:active {
+  cursor: -webkit-grabbing;;
+}
